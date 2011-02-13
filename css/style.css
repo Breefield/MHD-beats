@@ -166,8 +166,52 @@ button {  width: auto; overflow: visible; }
  * Author: 
  */
 
-
-
+footer {		
+	
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    border-right: 8px solid #EEE;
+	
+	}
+	
+#beats-input {		
+	
+    /*z-index: 100;
+    position: relative;
+    opacity: 0;*/
+	
+	}
+	
+footer .content {		
+	
+	padding: 10px;
+	
+	}
+	
+#beats-input-display {		
+	
+    position: absolute;
+    display: none;
+	
+	}
+	
+#beats-input, #beats-input-display {
+	
+	background: none;
+	width: 400px;
+	border: none;
+    font: 16px/20px "Courier New", Courier, mono;
+    padding: 0px;
+    color: #333;
+	
+	}
+	
+footer .content textarea:focus {
+	
+	outline: none;
+	
+	}
 
 
 
