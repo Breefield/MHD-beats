@@ -177,9 +177,8 @@ footer {
 	
 #beats-input {		
 	
-    /*z-index: 100;
+    z-index: 100;
     position: relative;
-    opacity: 0;*/
 	
 	}
 	
@@ -192,7 +191,16 @@ footer .content {
 #beats-input-display {		
 	
     position: absolute;
-    display: none;
+    list-style-type: none;
+	margin: 0px;
+	
+	}
+	
+#beats-input-display li {		
+	
+	background: #eee;
+    height: 19px;
+    border-bottom: 1px solid #666;
 	
 	}
 	
@@ -203,7 +211,7 @@ footer .content {
 	border: none;
     font: 16px/20px "Courier New", Courier, mono;
     padding: 0px;
-    color: #333;
+    color: #FFF;
 	
 	}
 	
